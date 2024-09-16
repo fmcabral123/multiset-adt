@@ -77,7 +77,7 @@ class Tree:
     #
     #   Note: self._subtrees may be empty when self._root is not None.
     #   This setting of attributes represents a tree consisting of just one
-    #   node.
+    #   node.1
 
     def __init__(self, root: int | None,
                  subtrees: None | list[Tree] = None) -> None:
