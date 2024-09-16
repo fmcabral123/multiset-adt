@@ -5,7 +5,7 @@ public class TreeMultiSet extends MultiSet {
     private Tree tree;
     //Creates a new TreeMultiset.
     public TreeMultiSet() {
-        this.tree = new Tree();
+        this.tree = new Tree(); //is this working?
     };
     /**
      * Add the given item to this multiset.
