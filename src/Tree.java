@@ -1,8 +1,7 @@
-import org.w3c.dom.Node;
 
 public class Tree {
-    // TODO complete this Tree class to replicate the implementation from the Tree class in adts.py
-    private int root;
+    // TODO complete this Tree class to replicate the implementation from the Tree class in adts.py 1
+    private Integer root = null;
     private Tree[] subtrees;
     public Tree(int root, Tree[] subtrees) {
         this.root = root;
@@ -13,5 +12,8 @@ public class Tree {
         else {
             this.subtrees = subtrees;
         }
+    }
+    public boolean isEmpty() {
+        return this.root == null;
     }
 }
