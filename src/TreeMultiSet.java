@@ -1,6 +1,12 @@
 public class TreeMultiSet extends MultiSet {
-
+    // === Class Variable
     // TODO add a Tree object as a private instance variable for this class.
+    // === Instance Variables ===
+    private Tree tree;
+    //Creates a new TreeMultiset.
+    public TreeMultiSet() {
+        this.tree = new Tree();
+    };
     /**
      * Add the given item to this multiset.
      *
